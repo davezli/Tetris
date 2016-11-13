@@ -1,7 +1,7 @@
 # Tetris
 
 Made for CS349 (User Interfaces) at the University of Waterloo, Fall 2016.
-**Source code will be available after Aug 2017**
+**Source code will be available after Aug. 2017** as per university regulation.
 
 ## Description
 Tetris is a classic arcade game in which a random sequence of pieces fall from the top of a playing field that is 10 squares wide and 24 squares high. The piece stops falling (and a new piece begins to fall) when it encounters the bottom of the playing field or rests on top of previously fallen pieces. The player manipulates the falling piece to position it from side to side or to rotate it to achieve a packing at the bottom that leaves few gaps. Each time an entire row is filled, it disappears and any pieces above it fall to fill in the gaps. The game ends when the playing field fills so that there is no room for new pieces.
@@ -40,12 +40,13 @@ Tetris is a classic arcade game in which a random sequence of pieces fall from t
 
 ## Extra Features
 
-Scoring - Each line cleared gives points proportional to level
+* Scoring - Each line cleared gives points proportional to level
+* Levels - Each level increments at 10 lines cleared. At each level increment, pieces fall 60% faster. 
+* Soft Drop - DOWN key drops the block by 1 piece
+* Quit - Q key restarts the game
+* Next Piece - Preview of the next piece
 
-Levels - Each level increments at 10 lines cleared. At each level increment, pieces fall 60% faster. 
+## Possible Enhancements
 
-Soft Drop - DOWN key drops the block by 1 piece
-
-Quit - Q key restarts the game
-
-Next Piece - Preview of the next piece
+* Implement holding
+* Implement better rotating (smart-rotating: push back from walls)
