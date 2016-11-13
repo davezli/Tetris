@@ -1,21 +1,23 @@
 # Tetris
 
 Made for CS349 (User Interfaces) at the University of Waterloo, Fall 2016.
+**Source code will be available after Aug 2017**
 
 ## Description
 Tetris is a classic arcade game in which a random sequence of pieces fall from the top of a playing field that is 10 squares wide and 24 squares high. The piece stops falling (and a new piece begins to fall) when it encounters the bottom of the playing field or rests on top of previously fallen pieces. The player manipulates the falling piece to position it from side to side or to rotate it to achieve a packing at the bottom that leaves few gaps. Each time an entire row is filled, it disappears and any pieces above it fall to fill in the gaps. The game ends when the playing field fills so that there is no room for new pieces.
 
 ## Requirements
 
-1.  Respond to the following keyboard events to manipulate the currently falling piece (modified slightly from [tetrisfriends.com](http://www.tetrisfriends.com/help/tips_appendix.php#controls)):
+1.  Respond to the following keyboard events to manipulate the currently falling piece:
 
     | Game Action | Keyboard | Numpad |
+    | --- | --- | --- |
     | **Move Left** | LEFT Arrow | Numpad 4 |
     | **Move Right** | RIGHT Arrow | Numpad 6 |
     | **Drop** | Space Bar | Numpad 8 |
     | **Rotate Right** | UP Arrow, X | Numpad 1, 5, 9 |
     | **Rotate Left** | Control, Z | Numpad 3, 7 |
-    | **Pause** | P |
+    | **Pause** | P | --- |
 
 2.  Respond to the following mouse events to manipulate the currently falling piece:
 
