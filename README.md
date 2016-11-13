@@ -36,7 +36,7 @@ Tetris is a classic arcade game in which a random sequence of pieces fall from t
     *   -seq _s_: Specify a sequence of shapes that should fall (for testing purposes). Each shape is specified by one of the letters `ILJSZOT`. When the sequence is exhausted, simply repeat from the beginning.
 4.  Use `javax.swing.Timer` to animate the falling pieces. Changing the speed should leave the FPS unchanged. Similarly, changing the FPS should have no effect on the speed.
 5.  Handle window resize events appropriately while the game is paused. You may assume that the window will not be resized during game play.
-6.  Implement a splash screen with instructions for play. Your code may be demonstrated in class, so the splash screen should **not** identify you.
+6.  Implement a splash screen with instructions for play.
 
 ## Extra Features
 
